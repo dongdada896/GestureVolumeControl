@@ -15,7 +15,7 @@ wCam, hCam = 640, 480
 ########################
 
 # 输入的视频，“0”为打开摄像头
-cap = cv2.VideoCapture("example2.mp4")
+cap = cv2.VideoCapture("example.mp4")
 cap.set(3, wCam)
 cap.set(4, hCam)
 pTime = 0
